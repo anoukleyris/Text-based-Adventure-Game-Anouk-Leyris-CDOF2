@@ -11,16 +11,16 @@ To get started, clone the repository to your local machine: git clone https://gi
 Before making any changes, create a fork and a branch with the issue you resolve, where you will modify the code without touching my main branch.
 
 ## Running the Tests
+Before running the tests, ensure you have the required libraries installed. You can install them using:
+pip install colorama playsound
+# Add other libraries if needed
+Open the code project.py with Visual Studio Code for example
+Launch the code using the "Run" command or in entering "run project.py" in a terminal and start playing!
 
-Open the code project.py with Visual Studio Code, for example. Launch the code using the "Run" command or by entering "run project.py" in a terminal and start playing!
 
 ### Break Down into End-to-End Tests
 
 The game will end when the story is complete.
-
-## Built With
-
-[Add the technologies/libraries you used]
 
 ## main steps: 
 
@@ -46,10 +46,12 @@ Checks if the script is being run directly and not imported as a module.
 Calls the main() function to start the execution of the text adventure.
 The story involves making choices that affect the outcome, with different branches leading to various possible endings. The code uses time.sleep() to introduce delays in the text for a better storytelling experience.
 
+
 **Contributors:**
 - Anouk Leyris - Head of the project
 - Joshua Bornet - Part of the game realisation
 - Jean-Baptiste Martin - Part of the README redaction 
+
 
 ## Authors
 
